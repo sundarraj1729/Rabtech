@@ -1,0 +1,5 @@
+﻿Asset_ID,Asset_Name,Address,Owner_or_Source,Permitted_Use_or_Status,Exclusions_or_Stop_Limits,Notes
+LAB-01,Local training web app,127.0.0.1:8080,RabTech lab,Allowed within listed scope; verify app is running locally before testing,No denial-of-service; no third-party scanning,Provided asset inventory
+LAB-02,Deliberately vulnerable VM,192.168.56.20,RabTech lab,"Allowed within listed scope, subject to listed lab rules",No persistence; no outbound traffic,Provided asset inventory
+OBS-01,Kali Linux VM,192.168.56.101,User-created local lab,Not listed in supplied authorization inventory; use for setup/documentation only until scope confirmed,Do not direct tests outside confirmed scope,Observed current VM configuration; authorization not established
+OBS-02,Metasploitable 2 VM,192.168.56.102,User-created local lab,Not listed at this IP in supplied authorization inventory; obtain written confirmation or reconcile IP before testing,Do not assume this is LAB-02; no scanning until confirmed,Observed current VM configuration; differs from listed LAB-02 address
